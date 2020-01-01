@@ -1,0 +1,13 @@
+server:
+  port: 8081
+zuul:
+  routes:
+    users1:
+      path: /myusers/1
+      url: https://www.baidu.com
+    users2:
+        path: /myusers/2
+        url: https://www.baidu.com
+    users3:
+        path: /myusers/3
+        url: http://127.0.0.1:3000
